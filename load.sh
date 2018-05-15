@@ -1,9 +1,12 @@
 #/bin/sh
-PA="/home/pi/fablab-kiosk/";
+BASE="/home/pi/fablab-kiosk/";
+VP="viewport_";
+NUM="1"
 
-echo $PAvieport_1
+cd $BASE && git pull;
 
-i3-msg 'workspace 1; append_layout $PA"viewport_1/ws1.json"'
-(feh $PA3"images/logo.png" &)
-(surf $PA"viewport_1/index.html" &)
+i3-msg "workspace $NUM; append_layout $BASE$VP$NUM/ws1.json"
+(surf $BASE$VP$NUM"/index.html" &)
+(feh $BASE"images/logo.png" &)
+
 
