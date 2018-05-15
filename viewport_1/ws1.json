@@ -1,0 +1,64 @@
+{
+    "layout": "splith",
+    "percent": null,
+    "rect": {
+       "height": 950,
+       "width": 1920,
+       "x": 0,
+       "y": 0
+    },
+    "type": "floating_con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "user_on",
+            "geometry": {
+               "height": 950,
+               "width": 1920,
+               "x": 0,
+               "y": 0
+            },
+            "percent": 1,
+            "swallows": [
+               {
+               "class": "^Chromium-browser$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    "layout": "splith",
+    "percent": null,
+    "rect": {
+       "height": 130,
+       "width": 1920,
+       "x": 0,
+       "y": 950
+    },
+    "type": "floating_con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "user_on",
+            "geometry": {
+               "height": 130,
+               "width": 1920,
+               "x": 0,
+               "y": 0
+            },
+            "percent": 1,
+            "swallows": [
+               {
+                "class": "^feh$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
